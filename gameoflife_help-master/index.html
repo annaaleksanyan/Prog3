@@ -5,12 +5,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 	<script src="/socket.io/socket.io.js/"></script>
 	<script src="script.js"></script>
-
-
 	<style>
-		body{
+		body {
 			background: gold
 		}
+
 		#vanilapink {
 			background-color: #ffe4e1;
 		}
@@ -54,7 +53,7 @@
 			margin-top: 20px;
 			margin-right: 20px;
 			background: white
-			/* float:right; */
+				/* float:right; */
 		}
 
 		#first {
@@ -73,7 +72,8 @@
 			justify-content: center;
 			align-items: center;
 		}
-		.tb{
+
+		.tb {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -83,9 +83,6 @@
 
 
 <body>
-	<!-- <h1 align="center">𝐂𝐫𝐢𝐦𝐬𝐨𝐧 𝐋𝐢𝐟𝐞 𝐆𝐚𝐦𝐞</h1>  -->
-	<!-- <h2 align="center">𝐄𝐧𝐝𝐥𝐞𝐬𝐬 𝐠𝐚𝐦𝐞 𝐛𝐲 𝐀𝐧𝐧𝐚 𝐀𝐥𝐞𝐤𝐬𝐚𝐧𝐲𝐚𝐧</h2> 
-	<h3 align="center">𝐄𝐧𝐣𝐨𝐲:]</h3>  -->
 	<div class="tb">
 		<table>
 			<tr id="first">
@@ -129,13 +126,14 @@
 					<p>-</p>
 				</td>
 				<td>
-					<p>Multiplies when newCell and multiply reaches 8+</p>
+					<p>Multiplies after energy reaches 8+</p>
 				</td>
 				<td>
 					<p>No energy</p>
 				</td>
 				<td>
-					<p>Multiplys like Flash!!!(it's not normal, really).<br>Walks on Empty space.<br>Can be eaten by Everything Eater.<br>Appears new Grass if it's less then 1.</p>
+					<p>Appears new Grass if it's less then 1<br>Can be eaten by Everything Eater<br>Walks on Empty space
+					</p>
 				</td>
 			</tr>
 
@@ -157,7 +155,8 @@
 					<p>Eating Grass</p>
 				</td>
 				<td>
-					<p>Eats Grass or Killer of Vegan.<br>Walks on Empty space.<br>Dies if eats Killer of Vegan.<br> Can be eaten by Everything Eater.<br>Appears new Vegan if it's equalse or less then 20.</p>
+					<p>Eats Grass or Killer of Vegan <br>Dies if it eats Killer of Vegan. Can be eaten by Everything
+						Eater <br>Appears new Vegan if it's equalse or less then 20 and walks on Empty space </p>
 				</td>
 			</tr>
 
@@ -179,7 +178,7 @@
 					<p>No energy</p>
 				</td>
 				<td>
-					<p>Walks on Empty space.<br>Can eats everyone and nobody can eats it.<br> It's immortal!!!(Jesus Christ)</p>
+					<p>It can eats everyone and nobody can eats it. It's immortal!!!<br>Walks on Empty space</p>
 				</td>
 			</tr>
 
@@ -201,7 +200,8 @@
 					<p>Eating Vegan</p>
 				</td>
 				<td>
-					<p>Eats Vegan.<br>Walks on Empty space and Grass.<br>Dies if Everything Eater eats it.<br>Appears new Wild Animal if it's equalse 0.</p>
+					<p>Appears new Wild Animal if it's equalse 0<br>Dies if Everything Eater eats it<br>Walks on Empty
+						space and Grass</p>
 				</td>
 			</tr>
 
@@ -220,10 +220,11 @@
 					<p>No multiply</p>
 				</td>
 				<td>
-					<p>Moving</p>
+					<p>No energy</p>
 				</td>
 				<td>
-					<p>Walks on Empty space and Grass.<br>Dies if Everything Eater eats it.<br>It's something that people create when have no idea(like me:]</p>
+					<p>Walks on Empty space and Grass<br>Dies if Everything Eater eats it<br>Walks on Empty space and
+						Grass</p>
 				</td>
 			</tr>
 
@@ -245,7 +246,8 @@
 					<p>No energy</p>
 				</td>
 				<td>
-					<p>Walks on Empty space and Grass.<br>Appears new Killer Of Vegan if it's less then 1<br>If vegan eats it, vegan dies:)</p>
+					<p>Appears new Killer Of Vegan if it's less then 1<br>Walks on Empty space and Grass<br>If vegan
+						eats it, vegan dies:)</p>
 				</td>
 			</tr>
 

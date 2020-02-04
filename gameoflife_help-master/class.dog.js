@@ -17,12 +17,12 @@ module.exports = class Shun extends LivingCreature {
         var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)] || yntrelvandakner2[Math.floor(Math.random()*yntrelvandakner2.length)];
         this.energy++
         if (newCell) {
-            var x = newCell[0];
-            var y = newCell[1];
-            matrix[y][x] = 5;
+            var newX = newCell[0];
+            var newY = newCell[1];
+            matrix[newY][newX] = 5;
             matrix[this.y][this.x] = 0;
-            this.x = x
-            this.y = y
+            this.x = newX
+            this.y = newY
         }
         if (this.energy > 15) {
             this.energy = 5

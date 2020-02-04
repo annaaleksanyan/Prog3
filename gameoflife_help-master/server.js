@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 server.listen(3000);
 console.log("Server is running")
 
-let n = 13;
-let m = 18;
+let d = 50;
+let g = 50;
 
-function genMatrix(n,m) {
+function genMatrix(n, m) {
     var matrix = [];
     for (let i = 0; i < n; i++) {
         matrix[i] = [];
         for (let j = 0; j < m; j++) {
-            var probability = Math.floor(Math.random(0, 100))
+            var probability = Math.floor(Math.random()*100)
             if (probability <= 35) {
                 matrix[i][j] = 1;
                 grassArr.push(new Xot(j, i, 1));
@@ -31,18 +31,20 @@ function genMatrix(n,m) {
             } else if (probability > 47 && probability <= 48) {
                 matrix[i][j] = 4;
                 gishaticharr.push(new Gishatich(j, i, 4));
-            } else if (probability > 48 && probability <= 48.6) {
+            } else if (probability > 48 && probability <= 49) {
                 matrix[i][j] = 5;
                 shunarr.push(new Shun(j, i, 5));
-            } else if (probability > 48.6 && probability <= 48.8) {
+            } else if (probability > 49 && probability <= 49.2) {
                 matrix[i][j] = 6;
                 maharr.push(new Mah(j, i, 6));
             } else {
                 matrix[i][j] = 0;
             }
         }
-        return matrix;
+        
     }
+    
+    return matrix;
 }
 
 side = 35;
@@ -60,45 +62,44 @@ var Shun = require("./class.dog.js")
 var Mah = require("./class.killerofvegan.js")
 var Amenaker = require("./class.everythingeater.js")
 
-matrix = genMatrix(n,m);
-
+matrix = genMatrix(g, d);
 function drawserver() {
-for (var i in grassArr) {
-    grassArr[i].bazmacum();
+    for (var i in grassArr) {
+        grassArr[i].bazmacum();
+    }
+    for (var i in grassEaterArr) {
+        grassEaterArr[i].utel();
+    }
+    for (var i in amenakerArr) {
+        amenakerArr[i].utel();
+    }
+    for (var i in gishaticharr) {
+        gishaticharr[i].utel();
+    }
+    for (var i in shunarr) {
+        shunarr[i].sharjvel();
+    }
+    for (var i in maharr) {
+        maharr[i].sharjvel();
+    }
+    if (grassArr.length < 1) {
+        grassArr.push(new Xot(4, 4, 1))
+    }
+    if (gishaticharr.length == 0) {
+        gishaticharr.push(new Gishatich(0, 0, 4))
+    }
+    if (maharr.length <= 1) {
+        maharr.push(new Mah(1, 1, 6))
+    }
+    if (shunarr.length <= 2) {
+        shunarr.push(new Shun(7, 7, 5))
+    }
+    if (grassEaterArr.length <= 20) {
+        grassEaterArr.push(new Xotaker(3, 3, 2))
+    }
+    io.sockets.emit("matrix", matrix);
 }
-for (var i in grassEaterArr) {
-    grassEaterArr[i].utel();
-}
-for (var i in amenakerArr) {
-    amenakerArr[i].utel();
-}
-for (var i in gishaticharr) {
-    gishaticharr[i].utel();
-}
-for (var i in shunarr) {
-    shunarr[i].sharjvel();
-}
-for (var i in maharr) {
-    maharr[i].sharjvel();
-}
-if (grassArr.length < 1) {
-    grassArr.push(new Xot(4, 4, 1))
-}
-if (gishaticharr.length == 0) {
-    gishaticharr.push(new Gishatich(0, 0, 4))
-}
-if (maharr.length < 1) {
-    maharr.push(new Mah(1, 1, 6))
-}
-if (shunarr.length <= 2) {
-    shunarr.push(new Shun(2, 2, 5))
-}
-if (grassEaterArr.length <= 20) {
-    grassEaterArr.push(new Xotaker(3, 3, 2))
-}
-io.sockets.emit("matrix",matrix);
-}
-setInterval(drawserver,3000);
+setInterval(drawserver, 1000);
 
 //     socket.on("send message", function (data) {
 //         fs.writeFileSync("info.json", data);
