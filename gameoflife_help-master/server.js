@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
+var fs = require('fs');
 
 app.use(express.static("."));
 app.get('/', function (req, res) {
@@ -10,15 +11,23 @@ app.get('/', function (req, res) {
 server.listen(3000);
 console.log("Server is running")
 
-let d = 50;
-let g = 50;
+io.on('connection', function (socket) {
+    socket.on("send message", function (data) {
+       fs.writeFileSync("info.json", data);
+    })
+});
 
-function genMatrix(n, m) {
+
+
+let n = 13;
+let m = 18;
+
+function genMatrix() {
     var matrix = [];
     for (let i = 0; i < n; i++) {
         matrix[i] = [];
         for (let j = 0; j < m; j++) {
-            var probability = Math.floor(Math.random()*100)
+            var probability = Math.floor(Math.random() * 100)
             if (probability <= 35) {
                 matrix[i][j] = 1;
                 grassArr.push(new Xot(j, i, 1));
@@ -28,22 +37,24 @@ function genMatrix(n, m) {
             } else if (probability > 44 && probability <= 47) {
                 matrix[i][j] = 3;
                 amenakerArr.push(new Amenaker(j, i, 3));
-            } else if (probability > 47 && probability <= 48) {
+            } else if (probability > 47 && probability <= 53) {
                 matrix[i][j] = 4;
                 gishaticharr.push(new Gishatich(j, i, 4));
-            } else if (probability > 48 && probability <= 49) {
+            } else if (probability > 53 && probability <= 54) {
                 matrix[i][j] = 5;
                 shunarr.push(new Shun(j, i, 5));
-            } else if (probability > 49 && probability <= 49.2) {
+                // ShneriQanaky++
+            } else if (probability > 54 && probability <= 54.2) {
                 matrix[i][j] = 6;
                 maharr.push(new Mah(j, i, 6));
+                // MaheriQanaky++
             } else {
                 matrix[i][j] = 0;
             }
         }
-        
+
     }
-    
+
     return matrix;
 }
 
@@ -62,7 +73,11 @@ var Shun = require("./class.dog.js")
 var Mah = require("./class.killerofvegan.js")
 var Amenaker = require("./class.everythingeater.js")
 
+let d = 50;
+let g = 50;
+
 matrix = genMatrix(g, d);
+
 function drawserver() {
     for (var i in grassArr) {
         grassArr[i].bazmacum();
@@ -82,36 +97,23 @@ function drawserver() {
     for (var i in maharr) {
         maharr[i].sharjvel();
     }
-    if (grassArr.length < 1) {
+    if (grassArr.length < 3) {
         grassArr.push(new Xot(4, 4, 1))
     }
-    if (gishaticharr.length == 0) {
+    if (gishaticharr.length < 7) {
         gishaticharr.push(new Gishatich(0, 0, 4))
     }
-    if (maharr.length <= 1) {
+    if (maharr.length < 1) {
         maharr.push(new Mah(1, 1, 6))
+        // MaheriQanaky++
     }
     if (shunarr.length <= 2) {
-        shunarr.push(new Shun(7, 7, 5))
+        shunarr.push(new Shun(2, 2, 5))
+        // ShneriQanaky++
     }
     if (grassEaterArr.length <= 20) {
-        grassEaterArr.push(new Xotaker(3, 3, 2))
+        grassEaterArr.push(new Xotaker(Math.floor(Math.random()*9), Math.floor(Math.random()*9), 2))
     }
     io.sockets.emit("matrix", matrix);
 }
-setInterval(drawserver, 1000);
-
-//     socket.on("send message", function (data) {
-//         fs.writeFileSync("info.json", data);
-//     })
-// });
-// app.get("/*", function (req, res) {
-//     res.send("<h1>404 Error");
-// });
-
-
-// io.on('connection', function (socket) {
-// socket.on("fire", function() {
-//     matrix[this.y][this.x] = 0
-// });
-// });
+setInterval(drawserver, 500);

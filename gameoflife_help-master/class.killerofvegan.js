@@ -1,4 +1,5 @@
 var LivingCreature = require("./class.livingcreature.js")
+var random = require("./random.js")
 module.exports = class Mah extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
@@ -12,9 +13,7 @@ module.exports = class Mah extends LivingCreature {
     }
     sharjvel() {
         this.stanalNorKordinatner()
-        var yntrelvandakner = this.yntrelVandak(1);
-        var yntrelvandakner2 = this.yntrelVandak(0);
-        var newCell = yntrelvandakner[  Math.floor(Math.random()*yntrelvandakner.length)] || yntrelvandakner2[   Math.floor(Math.random()*yntrelvandakner2.length)   ];
+        var newCell = random(this.yntrelVandak(0)) || random(this.yntrelVandak(1));
         if (newCell) {            
             var newX = newCell[0];
             var newY = newCell[1];

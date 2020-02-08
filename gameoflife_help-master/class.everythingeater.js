@@ -1,4 +1,5 @@
 var LivingCreature = require("./class.livingcreature.js")
+var random = require("./random.js")
 module.exports = class Amenaker extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
@@ -8,11 +9,11 @@ module.exports = class Amenaker extends LivingCreature {
         return super.stanalNoraguynKordinatner();
     }
     yntrelVandak(character) {
+        this.stanalNoraguynKordinatner();
         return super.yntrelVandak(character);
     }
     sharjvel() {
-        var yntrelvandakner = this.yntrelVandak(0);
-        var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)];
+        var newCell = random(this.yntrelVandak(0));
         if (newCell) {
             var x = newCell[0];
             var y = newCell[1];
@@ -24,12 +25,7 @@ module.exports = class Amenaker extends LivingCreature {
     }
     utel() {
         this.stanalNoraguynKordinatner()
-        var yntrelvandakner = this.yntrelVandak(1);
-        var yntrelvandakner2 = this.yntrelVandak(2);
-        var yntrelvandakner3 = this.yntrelVandak(4);
-        var yntrelvandakner4 = this.yntrelVandak(5);
-        var yntrelvandakner5 = this.yntrelVandak(6);
-        var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)] || yntrelvandakner2[Math.floor(Math.random()*yntrelvandakner2.length)] || yntrelvandakner3[Math.floor(Math.random()*yntrelvandakner3.length)] || yntrelvandakner4[Math.floor(Math.random()*yntrelvandakner4.length)] || yntrelvandakner5[Math.floor(Math.random()*yntrelvandakner5.length)];
+        var newCell = random(this.yntrelVandak(1)) || random(this.yntrelVandak(2)) || random(this.yntrelVandak(4)) || random(this.yntrelVandak(5)) || random(this.yntrelVandak(6));
         if (newCell) {
             var newX = newCell[0];
             var newY = newCell[1];
@@ -41,6 +37,7 @@ module.exports = class Amenaker extends LivingCreature {
                 for (var i in grassEaterArr) {
                     if (newX == grassEaterArr[i].x && newY == grassEaterArr[i].y) {
                         grassEaterArr.splice(i, 1);
+                        // SpanvacXotakerner++
                         break;
                     }
                 }
@@ -49,6 +46,7 @@ module.exports = class Amenaker extends LivingCreature {
                 for (var i in grassArr) {
                     if (newX == grassArr[i].x && newY == grassArr[i].y) {
                         grassArr.splice(i, 1);
+                        // AmenakerneriKeracXoty++
                         break;
                     }
                 }

@@ -2,9 +2,10 @@
 
 <head>
 	<meta charset="utf8">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+	<script src="p5.js"></script>
 	<script src="/socket.io/socket.io.js/"></script>
-	<script src="script.js"></script>
+	<title>GameOfLife</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 		body {
 			background: gold
@@ -15,7 +16,7 @@
 		}
 
 		#purple {
-			background-color: #483d8b;
+			background-color: #008000;
 		}
 
 		#crimson {
@@ -23,15 +24,15 @@
 		}
 
 		#yellow {
-			background-color: #FFFF00;
+			background-color: #7d508b;
 		}
 
 		#green {
-			background-color: #7cfc00;
+			background-color: #ffff00;
 		}
 
 		#blue {
-			background-color: #1e90ff;
+			background-color: #00bfff;
 		}
 
 		#black {
@@ -72,7 +73,11 @@
 			justify-content: center;
 			align-items: center;
 		}
-
+		#snow-holder {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.tb {
 			display: flex;
 			justify-content: center;
@@ -83,6 +88,18 @@
 
 
 <body>
+	<div class="dws">
+		<a id="button" href ="#" class="butt">Snowflakes Button</a>
+	</div>	
+	<div class="possition">
+		<a id="button2" href ="#" class="butt2">Play Song Button</a>
+	</div>	
+	<div class="possitionoff">
+		<a id="button3" href ="#" class="butt3">Stop Song Button</a>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://p5js.org/assets/js/p5.dom.min.js"></script>
+	<script src="https://p5js.org/assets/js/p5.sound.min.js"></script>
 	<div class="tb">
 		<table>
 			<tr id="first">
@@ -117,7 +134,7 @@
 			<tr>
 				<td id="purple"></td>
 				<td>
-					<p>Purple</p>
+					<p>Different types of green</p>
 				</td>
 				<td>
 					<p>It's just a Grass</p>
@@ -163,7 +180,7 @@
 			<tr>
 				<td id="green"></td>
 				<td>
-					<p>Green</p>
+					<p>Yellow</p>
 				</td>
 				<td>
 					<p>Everything Eater</p>
@@ -185,7 +202,7 @@
 			<tr>
 				<td id="yellow"></td>
 				<td>
-					<p>Yellow</p>
+					<p>Purple</p>
 				</td>
 				<td>
 					<p>Wild Animal</p>
@@ -257,6 +274,7 @@
 	<br>
 
 	<div id="sketch-holder"></div>
+	<div id="snow-holder"></div>
 </body>
 
 </html>

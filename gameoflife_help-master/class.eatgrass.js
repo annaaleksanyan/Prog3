@@ -1,19 +1,27 @@
-var LivingCreature = require("./class.livingcreature.js")
+var LivingCreature = require("./class.livingcreature.js");
+var random = require("./random.js");
+// var exanak = require("./exanak.js");
 module.exports = class Xotaker extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
         this.directions = [];
         this.energy = 20;
+        this.exanakner = ['winter', 'spring', 'summer', 'autumn'];
+        this.exanak = 'spring'
+        this.ex = 0
+        this.multiplyExanak = 0;
+        // this.ser = Math.floor(random(0, 2));
+        // this.zuyg;
     }
     stanalNorKordinatner() {
         return super.stanalNoraguynKordinatner();
     }
     yntrelVandak(character) {
+        this.stanalNorKordinatner();
         return super.yntrelVandak(character)
     }
     sharjvel() {
-        var yntrelvandakner = this.yntrelVandak(0);
-        var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)];
+        var newCell = random(this.yntrelVandak(0));
         if (newCell) {
             var x = newCell[0];
             var y = newCell[1];
@@ -25,9 +33,7 @@ module.exports = class Xotaker extends LivingCreature {
     }
     utel() {
         this.stanalNorKordinatner()
-        var yntrelvandakner = this.yntrelVandak(1);
-        var yntrelvandakner2 = this.yntrelVandak(6);
-        var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)] || yntrelvandakner2[Math.floor(Math.random()*yntrelvandakner2.length)];
+        var newCell = random(this.yntrelVandak(1)) || random(this.yntrelVandak(6));
         if (newCell) {
             var newX = newCell[0];
             var newY = newCell[1];
@@ -43,6 +49,7 @@ module.exports = class Xotaker extends LivingCreature {
                 for (var i in grassArr) {
                     if (newX == grassArr[i].x && newY == grassArr[i].y) {
                         grassArr.splice(i, 1);
+                        // KeracXoty++
                         break;
                     }
                 }
@@ -59,11 +66,38 @@ module.exports = class Xotaker extends LivingCreature {
             }
         }
     }
+    stanalExanak() {
+        this.multiplyExanak++;
+        if (this.multiplyExanak >= 18) {
+            this.exanak = this.exanakner[this.ex];
+            this.ex++;
+            if (this.ex >= 4) {
+                this.ex = 0;
+            }
+            this.multiplyExanak = 0;
+        }
+        if (this.exanak == "spring") {
+            this.multiply += 2;
+        } else if (this.exanak == 'summer') {
+            this.multiply += 2.4;
+        } else if (this.exanak == "autumn") {
+            this.multiply += 1.5;
+        } else if (this.exanak == "winter") {
+            this.multiply += 1.2;
+        }
+    }
+    // gtnelZuyg() {
+    //     if (this.ser == 1) {
+    //         this.zuyg = 0;
+    //     } else {
+    //         this.zuyg = 1;
+    //     }
+    // }
     bazmacum() {
-        this.multiply += 1.5;
-        var yntrelvandakner = this.yntrelVandak(0);
-        var newCell = yntrelvandakner[Math.floor(Math.random()*yntrelvandakner.length)];
-        if (newCell && this.multiply >= 20) {
+        // this.gtnelZuyg();
+        this.stanalExanak();
+        var newCell = random(this.yntrelVandak(0));
+        if (newCell && this.multiply >= 18) {
             var newX = newCell[0];
             var newY = newCell[1];
             matrix[newY][newX] = 2;
@@ -76,6 +110,7 @@ module.exports = class Xotaker extends LivingCreature {
             if (this.x == grassEaterArr[i].x && this.y == grassEaterArr[i].y) {
                 grassEaterArr.splice(i, 1);
                 matrix[this.y][this.x] = 0;
+                // SpanvacXotakerner++
                 break;
             }
         }

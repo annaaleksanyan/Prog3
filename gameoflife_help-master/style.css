@@ -1,0 +1,60 @@
+.dws {
+    position: absolute;
+    top: 84%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+   }
+   .butt {
+    border: 3px solid #218294;
+    font-size: 17px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+   }   
+   .possition {
+    position: absolute;
+    top: 96%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+   }
+   .butt2 {
+    border: 3px solid #b41940;
+    font-size: 17px;
+    color: #b41940;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+   }        
+   .possitionoff {
+    position: absolute;
+    top: 108%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+   }
+   .butt3 {
+    border: 3px solid #10a00b;
+    font-size: 17px;
+    color: #10a00b;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+   }    
