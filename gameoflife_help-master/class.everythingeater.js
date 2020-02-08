@@ -37,7 +37,6 @@ module.exports = class Amenaker extends LivingCreature {
                 for (var i in grassEaterArr) {
                     if (newX == grassEaterArr[i].x && newY == grassEaterArr[i].y) {
                         grassEaterArr.splice(i, 1);
-                        // SpanvacXotakerner++
                         break;
                     }
                 }
@@ -46,7 +45,7 @@ module.exports = class Amenaker extends LivingCreature {
                 for (var i in grassArr) {
                     if (newX == grassArr[i].x && newY == grassArr[i].y) {
                         grassArr.splice(i, 1);
-                        // AmenakerneriKeracXoty++
+                        KervacXot++
                         break;
                     }
                 }

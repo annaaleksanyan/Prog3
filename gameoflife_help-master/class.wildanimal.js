@@ -48,7 +48,7 @@ module.exports = class Gishatich extends LivingCreature {
             for (var i in grassEaterArr) {
                 if (newX == grassEaterArr[i].x && newY == grassEaterArr[i].y) {
                     grassEaterArr.splice(i, 1);
-                    // GishatichneriKoxmicSpanvacXotakerner++
+                    KervacXotakerGishKoxm++
                     break;
                 }
             }

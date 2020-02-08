@@ -40,6 +40,7 @@ module.exports = class Xot extends LivingCreature {
             matrix[newY][newX] = 1;
             this.multiply = 0;
             grassArr.push(new Xot(newX, newY, 1));
+            XoteriQanak++
         }
     }
 }

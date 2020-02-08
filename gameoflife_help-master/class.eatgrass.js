@@ -1,6 +1,5 @@
 var LivingCreature = require("./class.livingcreature.js");
 var random = require("./random.js");
-// var exanak = require("./exanak.js");
 module.exports = class Xotaker extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
@@ -10,8 +9,8 @@ module.exports = class Xotaker extends LivingCreature {
         this.exanak = 'spring'
         this.ex = 0
         this.multiplyExanak = 0;
-        // this.ser = Math.floor(random(0, 2));
-        // this.zuyg;
+        this.ser = Math.floor(random(0, 2));
+        this.zuyg;
     }
     stanalNorKordinatner() {
         return super.stanalNoraguynKordinatner();
@@ -49,7 +48,7 @@ module.exports = class Xotaker extends LivingCreature {
                 for (var i in grassArr) {
                     if (newX == grassArr[i].x && newY == grassArr[i].y) {
                         grassArr.splice(i, 1);
-                        // KeracXoty++
+                        KervacXot++
                         break;
                     }
                 }
@@ -86,18 +85,24 @@ module.exports = class Xotaker extends LivingCreature {
             this.multiply += 1.2;
         }
     }
-    // gtnelZuyg() {
-    //     if (this.ser == 1) {
-    //         this.zuyg = 0;
-    //     } else {
-    //         this.zuyg = 1;
-    //     }
-    // }
+    gtnelZuyg() {
+        if (this.ser == 1) {
+            this.zuyg = 0;
+        } else {
+            this.zuyg = 1;
+        }
+    }
     bazmacum() {
-        // this.gtnelZuyg();
+        this.gtnelZuyg();
         this.stanalExanak();
-        var newCell = random(this.yntrelVandak(0));
-        if (newCell && this.multiply >= 18) {
+        var newCellmult = random(this.yntrelVandak(2)); 
+        for (var i in grassEaterArr) {
+            if (newCellmult && newCellmult[0] == grassEaterArr[i].x && newCellmult[1] == grassEaterArr[i].y) {
+                var zuygiIndex = i;
+            }
+        }
+        var newCell = random(this.yntrelVandak(0,1));
+        if (zuygiIndex && newCell && newCellmult && grassEaterArr[zuygiIndex].ser == this.zuyg) {
             var newX = newCell[0];
             var newY = newCell[1];
             matrix[newY][newX] = 2;
@@ -110,7 +115,6 @@ module.exports = class Xotaker extends LivingCreature {
             if (this.x == grassEaterArr[i].x && this.y == grassEaterArr[i].y) {
                 grassEaterArr.splice(i, 1);
                 matrix[this.y][this.x] = 0;
-                // SpanvacXotakerner++
                 break;
             }
         }

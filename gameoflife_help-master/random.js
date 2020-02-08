@@ -7,6 +7,4 @@ function random (items){
     }
     return item;
 }
-
-
 module.exports = random;
