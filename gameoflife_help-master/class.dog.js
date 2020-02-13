@@ -6,16 +6,13 @@ module.exports = class Shun extends LivingCreature {
         this.energy = 8;
         this.directions = [];
     }
-
     stanalNorKordinatner() {
         return super.stanalNoraguynKordinatner();
     }
-
     yntrelVandak(character) {
         this.stanalNorKordinatner();
         return super. yntrelVandak(character);
     }
-
     sharjvel() {
         var newCell = random(this.yntrelVandak(0)) || random(this.yntrelVandak(1));
         this.energy++

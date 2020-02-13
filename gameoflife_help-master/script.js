@@ -21,7 +21,6 @@ function setup() {
     var cnv = createCanvas(18 * side, 13 * side);
     cnv.parent('sketch-holder');
 }
-
 var button3 = document.getElementById("button3");
 function bodyClick3(evt) {
     song.stop();
@@ -49,23 +48,23 @@ function drawMatrix(matrix) {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 1 && exanak == 'spring') {
-                fill(0, 128, 0); //xot lime
+                fill(0, 128, 0); //lime
             } else if (matrix[y][x] == 1 && exanak == 'summer') {
-                fill(0, 255, 0); //xot forestgreen
+                fill(0, 255, 0); //forestgreen
             } else if (matrix[y][x] == 1 && exanak == 'winter') {
-                fill(60, 179, 113); //xot lightgreen
+                fill(60, 179, 113); //lightgreen
             } else if (matrix[y][x] == 1 && exanak == 'autumn') {
-                fill(255, 69, 0); //xot orangered
+                fill(255, 69, 0); //orangered
             } else if (matrix[y][x] == 2) {
-                fill(220, 20, 60); //xotaker crimson
+                fill(220, 20, 60); //crimson
             } else if (matrix[y][x] == 3) {
-                fill(255, 255, 0) //amenaker yello
+                fill(255, 255, 0) //yello
             } else if (matrix[y][x] == 0) {
-                fill(255, 228, 225); //vanilawhite
+                fill(255, 228, 225); //vanila white
             } else if (matrix[y][x] == 4) {
-                fill(125, 80, 139); //gishatich purple
+                fill(125, 80, 139); //purple
             } else if (matrix[y][x] == 5) {
-                fill(0, 191, 255); //shun blue 
+                fill(0, 191, 255); //blue 
             } else if (matrix[y][x] == 6) {
                 fill("black");
             } else {

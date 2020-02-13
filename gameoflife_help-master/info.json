@@ -1,591 +1,567 @@
 {
     "info": [
         {
-            "Xoteri qanak": 2197,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 1156,
+            "Xoteri qanak": 182,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 39,
+            "Kervac Xotakery Gishatichi Koxmic": 4,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 278,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 65,
+            "Kervac Xotakery Gishatichi Koxmic": 14,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 416,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 96,
+            "Kervac Xotakery Gishatichi Koxmic": 19,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 542,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 159,
+            "Kervac Xotakery Gishatichi Koxmic": 23,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 701,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 243,
+            "Kervac Xotakery Gishatichi Koxmic": 27,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 860,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 331,
+            "Kervac Xotakery Gishatichi Koxmic": 33,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1033,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 426,
+            "Kervac Xotakery Gishatichi Koxmic": 42,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1184,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 501,
+            "Kervac Xotakery Gishatichi Koxmic": 51,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1330,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 567,
+            "Kervac Xotakery Gishatichi Koxmic": 59,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1488,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 645,
+            "Kervac Xotakery Gishatichi Koxmic": 61,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1649,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 742,
+            "Kervac Xotakery Gishatichi Koxmic": 68,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 1823,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 844,
+            "Kervac Xotakery Gishatichi Koxmic": 74,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 2002,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 949,
+            "Kervac Xotakery Gishatichi Koxmic": 83,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 2170,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1050,
             "Kervac Xotakery Gishatichi Koxmic": 86,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 4602,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 2635,
+            "Xoteri qanak": 2362,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1165,
+            "Kervac Xotakery Gishatichi Koxmic": 94,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 2557,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1288,
+            "Kervac Xotakery Gishatichi Koxmic": 98,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 2762,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1416,
+            "Kervac Xotakery Gishatichi Koxmic": 106,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 2926,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1518,
+            "Kervac Xotakery Gishatichi Koxmic": 113,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 3108,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1618,
+            "Kervac Xotakery Gishatichi Koxmic": 123,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 3273,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1714,
+            "Kervac Xotakery Gishatichi Koxmic": 128,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 3460,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1835,
+            "Kervac Xotakery Gishatichi Koxmic": 133,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 3666,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 1964,
+            "Kervac Xotakery Gishatichi Koxmic": 140,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 3868,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2097,
+            "Kervac Xotakery Gishatichi Koxmic": 145,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 4040,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2207,
+            "Kervac Xotakery Gishatichi Koxmic": 155,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 4220,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2312,
+            "Kervac Xotakery Gishatichi Koxmic": 162,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 4400,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2423,
+            "Kervac Xotakery Gishatichi Koxmic": 169,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 4577,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2531,
+            "Kervac Xotakery Gishatichi Koxmic": 176,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 4760,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2641,
             "Kervac Xotakery Gishatichi Koxmic": 183,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 6827,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 3899,
-            "Kervac Xotakery Gishatichi Koxmic": 280,
+            "Xoteri qanak": 4931,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2736,
+            "Kervac Xotakery Gishatichi Koxmic": 192,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 9045,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 5210,
+            "Xoteri qanak": 5100,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2827,
+            "Kervac Xotakery Gishatichi Koxmic": 201,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 5259,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 2912,
+            "Kervac Xotakery Gishatichi Koxmic": 207,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 5434,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3020,
+            "Kervac Xotakery Gishatichi Koxmic": 209,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 5624,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3141,
+            "Kervac Xotakery Gishatichi Koxmic": 219,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 5801,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3247,
+            "Kervac Xotakery Gishatichi Koxmic": 225,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 5955,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3346,
+            "Kervac Xotakery Gishatichi Koxmic": 229,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 6156,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3481,
+            "Kervac Xotakery Gishatichi Koxmic": 234,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 6361,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3617,
+            "Kervac Xotakery Gishatichi Koxmic": 244,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 6549,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3734,
+            "Kervac Xotakery Gishatichi Koxmic": 252,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 6738,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3846,
+            "Kervac Xotakery Gishatichi Koxmic": 260,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 6918,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 3963,
+            "Kervac Xotakery Gishatichi Koxmic": 263,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 7123,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4105,
+            "Kervac Xotakery Gishatichi Koxmic": 267,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 7306,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4231,
+            "Kervac Xotakery Gishatichi Koxmic": 267,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 7519,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4378,
+            "Kervac Xotakery Gishatichi Koxmic": 269,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 7728,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4525,
+            "Kervac Xotakery Gishatichi Koxmic": 271,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 7943,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4672,
+            "Kervac Xotakery Gishatichi Koxmic": 276,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 8154,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4819,
+            "Kervac Xotakery Gishatichi Koxmic": 278,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 8334,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 4945,
+            "Kervac Xotakery Gishatichi Koxmic": 278,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 8542,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5092,
+            "Kervac Xotakery Gishatichi Koxmic": 282,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 8748,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5228,
+            "Kervac Xotakery Gishatichi Koxmic": 290,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 8947,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5353,
+            "Kervac Xotakery Gishatichi Koxmic": 300,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 9135,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5468,
+            "Kervac Xotakery Gishatichi Koxmic": 306,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 9302,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5576,
+            "Kervac Xotakery Gishatichi Koxmic": 311,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 9496,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5704,
+            "Kervac Xotakery Gishatichi Koxmic": 318,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 9686,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5833,
+            "Kervac Xotakery Gishatichi Koxmic": 323,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 9894,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 5979,
+            "Kervac Xotakery Gishatichi Koxmic": 328,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 10074,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6101,
+            "Kervac Xotakery Gishatichi Koxmic": 333,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 10276,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6236,
+            "Kervac Xotakery Gishatichi Koxmic": 339,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 10482,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6369,
+            "Kervac Xotakery Gishatichi Koxmic": 348,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 10676,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6492,
+            "Kervac Xotakery Gishatichi Koxmic": 356,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 10832,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6600,
+            "Kervac Xotakery Gishatichi Koxmic": 359,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 11037,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6742,
+            "Kervac Xotakery Gishatichi Koxmic": 364,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 11254,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 6889,
+            "Kervac Xotakery Gishatichi Koxmic": 366,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 11426,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7013,
+            "Kervac Xotakery Gishatichi Koxmic": 371,
+            "Maheri Qanak": 1
+        },
+        {
+            "Xoteri qanak": 11641,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7160,
             "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 11634,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 6916,
-            "Kervac Xotakery Gishatichi Koxmic": 455,
+            "Xoteri qanak": 11848,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7307,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 14438,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 8856,
-            "Kervac Xotakery Gishatichi Koxmic": 510,
+            "Xoteri qanak": 12058,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7454,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 17151,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 10616,
-            "Kervac Xotakery Gishatichi Koxmic": 606,
+            "Xoteri qanak": 12238,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7580,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 19688,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 12213,
-            "Kervac Xotakery Gishatichi Koxmic": 692,
+            "Xoteri qanak": 12449,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7727,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 22406,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 14048,
-            "Kervac Xotakery Gishatichi Koxmic": 774,
+            "Xoteri qanak": 12664,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 7874,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 24789,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 15528,
-            "Kervac Xotakery Gishatichi Koxmic": 866,
+            "Xoteri qanak": 12847,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8000,
+            "Kervac Xotakery Gishatichi Koxmic": 372,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 27453,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 17307,
-            "Kervac Xotakery Gishatichi Koxmic": 955,
+            "Xoteri qanak": 13062,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8147,
+            "Kervac Xotakery Gishatichi Koxmic": 375,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 30039,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 18983,
-            "Kervac Xotakery Gishatichi Koxmic": 1048,
+            "Xoteri qanak": 13272,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8291,
+            "Kervac Xotakery Gishatichi Koxmic": 383,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 32361,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 20384,
-            "Kervac Xotakery Gishatichi Koxmic": 1136,
+            "Xoteri qanak": 13456,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8414,
+            "Kervac Xotakery Gishatichi Koxmic": 390,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 35102,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 22228,
-            "Kervac Xotakery Gishatichi Koxmic": 1221,
+            "Xoteri qanak": 13670,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8551,
+            "Kervac Xotakery Gishatichi Koxmic": 395,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 37393,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 23590,
-            "Kervac Xotakery Gishatichi Koxmic": 1314,
+            "Xoteri qanak": 13884,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8696,
+            "Kervac Xotakery Gishatichi Koxmic": 402,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 39910,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 25159,
-            "Kervac Xotakery Gishatichi Koxmic": 1413,
+            "Xoteri qanak": 14066,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8819,
+            "Kervac Xotakery Gishatichi Koxmic": 406,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 42302,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 26661,
-            "Kervac Xotakery Gishatichi Koxmic": 1512,
+            "Xoteri qanak": 14289,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 8966,
+            "Kervac Xotakery Gishatichi Koxmic": 409,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 45117,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 28574,
-            "Kervac Xotakery Gishatichi Koxmic": 1598,
+            "Xoteri qanak": 14502,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9112,
+            "Kervac Xotakery Gishatichi Koxmic": 415,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 47929,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 30512,
-            "Kervac Xotakery Gishatichi Koxmic": 1656,
+            "Xoteri qanak": 14684,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9233,
+            "Kervac Xotakery Gishatichi Koxmic": 423,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 50733,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 32386,
-            "Kervac Xotakery Gishatichi Koxmic": 1731,
+            "Xoteri qanak": 14880,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9353,
+            "Kervac Xotakery Gishatichi Koxmic": 434,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 53263,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 33985,
-            "Kervac Xotakery Gishatichi Koxmic": 1834,
+            "Xoteri qanak": 15059,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9458,
+            "Kervac Xotakery Gishatichi Koxmic": 441,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 55628,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 35438,
-            "Kervac Xotakery Gishatichi Koxmic": 1925,
+            "Xoteri qanak": 15218,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9544,
+            "Kervac Xotakery Gishatichi Koxmic": 450,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 58395,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 37275,
-            "Kervac Xotakery Gishatichi Koxmic": 2018,
+            "Xoteri qanak": 15369,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9621,
+            "Kervac Xotakery Gishatichi Koxmic": 456,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 61162,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 39152,
-            "Kervac Xotakery Gishatichi Koxmic": 2110,
+            "Xoteri qanak": 15538,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9717,
+            "Kervac Xotakery Gishatichi Koxmic": 463,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 63713,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 40762,
-            "Kervac Xotakery Gishatichi Koxmic": 2217,
+            "Xoteri qanak": 15691,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9803,
+            "Kervac Xotakery Gishatichi Koxmic": 470,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 65881,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 41972,
-            "Kervac Xotakery Gishatichi Koxmic": 2317,
+            "Xoteri qanak": 15851,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9888,
+            "Kervac Xotakery Gishatichi Koxmic": 477,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 67892,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 43050,
-            "Kervac Xotakery Gishatichi Koxmic": 2410,
+            "Xoteri qanak": 16010,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 9981,
+            "Kervac Xotakery Gishatichi Koxmic": 482,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 70286,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 44526,
-            "Kervac Xotakery Gishatichi Koxmic": 2504,
+            "Xoteri qanak": 16149,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10068,
+            "Kervac Xotakery Gishatichi Koxmic": 486,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 72591,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 45898,
-            "Kervac Xotakery Gishatichi Koxmic": 2607,
+            "Xoteri qanak": 16334,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10180,
+            "Kervac Xotakery Gishatichi Koxmic": 491,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 74863,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 47243,
-            "Kervac Xotakery Gishatichi Koxmic": 2703,
+            "Xoteri qanak": 16535,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10309,
+            "Kervac Xotakery Gishatichi Koxmic": 499,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 77130,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 48678,
-            "Kervac Xotakery Gishatichi Koxmic": 2791,
+            "Xoteri qanak": 16703,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10411,
+            "Kervac Xotakery Gishatichi Koxmic": 507,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 79390,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 50131,
-            "Kervac Xotakery Gishatichi Koxmic": 2871,
+            "Xoteri qanak": 16888,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10517,
+            "Kervac Xotakery Gishatichi Koxmic": 514,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 81588,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 51596,
-            "Kervac Xotakery Gishatichi Koxmic": 2940,
+            "Xoteri qanak": 17045,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10615,
+            "Kervac Xotakery Gishatichi Koxmic": 517,
             "Maheri Qanak": 1
         },
         {
-            "Xoteri qanak": 83881,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 53093,
-            "Kervac Xotakery Gishatichi Koxmic": 3025,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 86080,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 54545,
-            "Kervac Xotakery Gishatichi Koxmic": 3100,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 88236,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 56025,
-            "Kervac Xotakery Gishatichi Koxmic": 3162,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 90354,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 57404,
-            "Kervac Xotakery Gishatichi Koxmic": 3232,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 92399,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 58803,
-            "Kervac Xotakery Gishatichi Koxmic": 3294,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 94409,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 60092,
-            "Kervac Xotakery Gishatichi Koxmic": 3370,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 96313,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 61301,
-            "Kervac Xotakery Gishatichi Koxmic": 3437,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 98232,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 62500,
-            "Kervac Xotakery Gishatichi Koxmic": 3502,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 99911,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 63362,
-            "Kervac Xotakery Gishatichi Koxmic": 3592,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 101624,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 64280,
-            "Kervac Xotakery Gishatichi Koxmic": 3675,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 103319,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 65313,
-            "Kervac Xotakery Gishatichi Koxmic": 3738,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 105056,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 66448,
-            "Kervac Xotakery Gishatichi Koxmic": 3807,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 106679,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 67472,
-            "Kervac Xotakery Gishatichi Koxmic": 3868,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 108359,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 68598,
-            "Kervac Xotakery Gishatichi Koxmic": 3927,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 110089,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 69767,
-            "Kervac Xotakery Gishatichi Koxmic": 3983,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 111707,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 70711,
-            "Kervac Xotakery Gishatichi Koxmic": 4055,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 113290,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 71827,
-            "Kervac Xotakery Gishatichi Koxmic": 4093,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 114939,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 72978,
-            "Kervac Xotakery Gishatichi Koxmic": 4127,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 116559,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 74062,
-            "Kervac Xotakery Gishatichi Koxmic": 4183,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 118147,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 75017,
-            "Kervac Xotakery Gishatichi Koxmic": 4251,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 119650,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 75934,
-            "Kervac Xotakery Gishatichi Koxmic": 4311,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 121184,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 76890,
-            "Kervac Xotakery Gishatichi Koxmic": 4365,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 122714,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 77868,
-            "Kervac Xotakery Gishatichi Koxmic": 4424,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 124283,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 78873,
-            "Kervac Xotakery Gishatichi Koxmic": 4476,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 125769,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 79825,
-            "Kervac Xotakery Gishatichi Koxmic": 4534,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 127217,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 80659,
-            "Kervac Xotakery Gishatichi Koxmic": 4597,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 128599,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 81494,
-            "Kervac Xotakery Gishatichi Koxmic": 4657,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 129960,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 82284,
-            "Kervac Xotakery Gishatichi Koxmic": 4715,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 131279,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 83149,
-            "Kervac Xotakery Gishatichi Koxmic": 4760,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 132717,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 84102,
-            "Kervac Xotakery Gishatichi Koxmic": 4808,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 134177,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 85109,
-            "Kervac Xotakery Gishatichi Koxmic": 4839,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 135574,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 85981,
-            "Kervac Xotakery Gishatichi Koxmic": 4904,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 136888,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 86779,
-            "Kervac Xotakery Gishatichi Koxmic": 4944,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 138153,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 87471,
-            "Kervac Xotakery Gishatichi Koxmic": 5013,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 139377,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 88240,
-            "Kervac Xotakery Gishatichi Koxmic": 5055,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 140646,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 89050,
-            "Kervac Xotakery Gishatichi Koxmic": 5102,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 141950,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 89902,
-            "Kervac Xotakery Gishatichi Koxmic": 5152,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 143186,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 90665,
-            "Kervac Xotakery Gishatichi Koxmic": 5200,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 144490,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 91568,
-            "Kervac Xotakery Gishatichi Koxmic": 5240,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 145742,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 92242,
-            "Kervac Xotakery Gishatichi Koxmic": 5299,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 147001,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 93057,
-            "Kervac Xotakery Gishatichi Koxmic": 5332,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 148309,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 93890,
-            "Kervac Xotakery Gishatichi Koxmic": 5387,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 149568,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 94695,
-            "Kervac Xotakery Gishatichi Koxmic": 5425,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 150816,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 95516,
-            "Kervac Xotakery Gishatichi Koxmic": 5468,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 152026,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 96317,
-            "Kervac Xotakery Gishatichi Koxmic": 5509,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 153329,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 97194,
-            "Kervac Xotakery Gishatichi Koxmic": 5549,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 154539,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 97892,
-            "Kervac Xotakery Gishatichi Koxmic": 5606,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 155754,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 98598,
-            "Kervac Xotakery Gishatichi Koxmic": 5658,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 156964,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 99370,
-            "Kervac Xotakery Gishatichi Koxmic": 5707,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 158171,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 100070,
-            "Kervac Xotakery Gishatichi Koxmic": 5758,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 159340,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 100803,
-            "Kervac Xotakery Gishatichi Koxmic": 5797,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 160542,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 101580,
-            "Kervac Xotakery Gishatichi Koxmic": 5842,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 161721,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 102293,
-            "Kervac Xotakery Gishatichi Koxmic": 5901,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 162808,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 102859,
-            "Kervac Xotakery Gishatichi Koxmic": 5952,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 163949,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 103557,
-            "Kervac Xotakery Gishatichi Koxmic": 5991,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 165148,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 104343,
-            "Kervac Xotakery Gishatichi Koxmic": 6037,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 166309,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 105041,
-            "Kervac Xotakery Gishatichi Koxmic": 6086,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 167435,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 105703,
-            "Kervac Xotakery Gishatichi Koxmic": 6136,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 168576,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 106399,
-            "Kervac Xotakery Gishatichi Koxmic": 6183,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 169749,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 107189,
-            "Kervac Xotakery Gishatichi Koxmic": 6225,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 170882,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 107867,
-            "Kervac Xotakery Gishatichi Koxmic": 6272,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 172016,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 108542,
-            "Kervac Xotakery Gishatichi Koxmic": 6320,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 173080,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 109194,
-            "Kervac Xotakery Gishatichi Koxmic": 6358,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 174173,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 109967,
-            "Kervac Xotakery Gishatichi Koxmic": 6378,
-            "Maheri Qanak": 1
-        },
-        {
-            "Xoteri qanak": 175250,
-            "Kervac Xoty Bolor Kerparneri Koxmic": 110598,
-            "Kervac Xotakery Gishatichi Koxmic": 6426,
+            "Xoteri qanak": 17244,
+            "Kervac Xoty Bolor Kerparneri Koxmic": 10744,
+            "Kervac Xotakery Gishatichi Koxmic": 525,
             "Maheri Qanak": 1
         }
     ]

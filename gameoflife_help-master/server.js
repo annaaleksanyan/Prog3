@@ -22,7 +22,7 @@ function main(){
     obj.info.push({"Xoteri qanak": XoteriQanak,"Kervac Xoty Bolor Kerparneri Koxmic": KervacXot,"Kervac Xotakery Gishatichi Koxmic": KervacXotakerGishKoxm,"Maheri Qanak": MaheriQanak});
     fs.writeFileSync(file,JSON.stringify(obj,null,4))
 }
-setInterval(main,10000)
+setInterval(main,7000)
 
 let n = 13;
 let m = 18;
@@ -120,4 +120,4 @@ function drawserver() {
     }
     io.sockets.emit("matrix", matrix);
 }
-setInterval(drawserver, 100);
+setInterval(drawserver, 700);
